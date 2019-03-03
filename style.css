@@ -1,0 +1,42 @@
+/* Universal Rules */
+
+body {
+    background-color: black;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    padding-left: 10px;
+    height: 50px;
+    width: fit;
+    size: 50%;
+}
+
+header .navigation {
+    display: flex;
+    width: 350px;
+    height: 69px;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.navigation a {
+    color: seashell;
+}
