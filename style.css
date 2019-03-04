@@ -7,6 +7,8 @@ body {
     color: seashell;
     opacity: 0.9;
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Header */
@@ -100,4 +102,43 @@ header .navigation {
     height: 200px;
     width: 300px;
     padding: 15px;
+}
+
+/* Locations */
+
+.locations {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.locations .background {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    height: 500px;
+    align-items: flex-start;
+    background-image: url(./images/img-locations-background.jpg);
+}
+
+.locations .background .site {
+    background-color: black;
+    width: 300px;
+    text-align: center;
+    margin: 20px;
+}
+
+.locations .background .location-title{
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: -550px;
+}
+
+/* Footer */
+
+footer {
+    height: 300px;
+    background-color: black;
 }
