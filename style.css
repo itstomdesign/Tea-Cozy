@@ -139,6 +139,15 @@ header .navigation {
 /* Footer */
 
 footer {
-    height: 300px;
+    height: 250px;
     background-color: black;
+}
+
+footer .text {
+    justify-content: center;
+    text-align: center;
+}
+
+footer .copyright {
+   padding-left: 20px;
 }
